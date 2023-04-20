@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Formulario de Contacto</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="styles1.css" id="estilo-pagina"/>
+
+</head>
+
+<body>
+
+
+  <header>
+    <div class="header">
+      <div class="title">
+        <h1>Programación y Plataformas Web</h1>
+        <h2>Formulario de Contacto</h2>
+      </div>
+      <div class="nav-bar">
+        <nav>
+          <a href="index.html">Inicio</a>
+          <a href="page1.html">Estructura de una página web</a>
+          <a href="page2.html">Principales componentes/elementos de HTML</a>
+          <a href="page3.html">Principales estilos para CSS y la definición</a>
+          <a href="page4.html">Principales funciones de JS</a>
+          <a href="page5.html">Validadores de estándares HTML</a>
+          <a href="page6.html" aria-current="page">Formulario Contacto</a>
+        </nav>
+      </div>
+
+    </div>
+  </header>
+
+  <div class="content">
+    <h2>Formulario de Contacto</h2>
+    <div class="content-border">
+      <img src="https://cdn-icons-png.flaticon.com/128/4345/4345551.png" alt="Descripción de la imagen"
+        class="zoom-image">
+
+
+
+      <form onsubmit="return validar()">
+        <label>Nombres:</label>
+        <input type="text" id="nombres" required>
+
+
+        <label>Apellido:</label>
+        <input type="text" id="apellido" required>
+
+
+        <label>Teléfono:</label>
+        <input type="tel" id="telefono" pattern="[0-9]{10}" required>
+
+
+        <label>Email:</label>
+        <input type="email" id="email" required>
+
+
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+
+
+
+  </div>
+
+  <footer>
+    <p>Desarrollado por:</p>
+    <ul>
+      <li><a href="https://github.com/juandtap">Diego Tapia, </a></li>
+      <li><a href="https://github.com/Paul-Astudillo">Paul Astudillo, </a></li>
+      <li>Enlaces a repositorios</li>
+      <li><a href="https://github.com/juandtap/Practica1_DesarrolloWeb">Repositorio Github</a></li>
+      <li><a href="https://stackblitz.com/edit/web-platform-yjx4kh">Repositorio StackBlitz</a></li>
+    </ul>
+    <button onclick="cambiarEstilo()">Cambiar estilo</button>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+
+</html>

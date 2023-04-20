@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Pagina 1</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="styles1.css" id="estilo-pagina">
+
+</head>
+
+
+<body>
+
+
+  <header>
+    <div class="header">
+      <div class="title">
+        <h1>Programación y Plataformas Web</h1>
+        <h2>Estructura de una página web</h2>
+      </div>
+      <div class="nav-bar">
+        <nav>
+          <a href="index.html">Inicio</a>
+          <a href="page1.html" aria-current="page">Estructura de una página web</a>
+          <a href="page2.html">Principales componentes/elementos de HTML</a>
+          <a href="page3.html">Principales estilos para CSS y la definición</a>
+          <a href="page4.html">Principales funciones de JS</a>
+          <a href="page5.html">Validadores de estándares HTML</a>
+          <a href="page6.html">Formulario Contacto</a>
+        </nav>
+      </div>
+
+    </div>
+  </header>
+
+  <div class="content">
+    <div class="content-border">
+      <!-- ESTRUCTURA HTML -->
+      <h1 id="titulo_html">Estructura HTML</h1>
+      <img class="logo-web"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png"
+        alt="Imagen Rotando" />
+
+      <ul id="text-html">
+        <li>html y /html :Colocadas al principio y fin del documento indican dónde comienza y finaliza la página web.
+        </li>
+   
+        <li>head y /head : Definen un espacio en el que incluiremos contenidos que no se van a mostrar directamente
+          <br>en el navegador, sino que sirven para describir determinados aspectos del documento,
+          <br> su título, autor, los estilos que emplearemos, pequeñas funciones que se deben realizar, etc.
+        </li>
+ 
+        <li>body y /body : En su interior se incluye la información que se mostrará en el navegador.
+          <br> Es el contenido real
+          de la página, estructurado mediante las diferentes etiquetas.
+        </li>
+
+      </ul>
+      <img class="zoom-image" src="https://www.internetparavos.com.ar/ecursos/html/img/modulo3_estructura_web.jpg" alt="imagen" />
+
+      <!-- ESTRUCTURA CSS -->
+      <h1 >Estructura CSS</h1>
+      <img class="logo-web"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
+        alt="Imagen Rotando" />
+
+      <ul>
+        <li> Selector: Elemento o elementos del documento que vamos a seleccionar para aplicarle un estilo concreto.
+        </li>
+     
+        <li> Propiedad: Característica principal que vamos a definir con el valor indicado a continuación. </li>
+    
+        <li>Valor: Cada propiedad tiene una serie de valores concretos asignables, con los que tendrá uno u otro
+          comportamiento. </li>
+    
+        <li>Comentario: Fragmento de texto entre /* y */ con anotaciones o aclaraciones para el desarrollador (el
+          navegador los ignorará).</li>
+  
+        <li>Regla: Par de propiedad y su respectivo valor asociado.</li>
+
+      </ul>
+      <img class="zoom-image" src="https://lenguajecss.com/css/introduccion/estructura-de-css/sintaxis-visual.png" alt="page1"/>
+
+
+      <!-- ESTRUCTURA JAVA SCRIPT -->
+      <h1>Estructura JavaScript</h1>
+      <img class="logo-web"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE4xo2cq28cbiSLVJW42FZ5sQ5IZ7nOBGb0g&usqp=CAU"
+        alt="Imagen Rotando" />
+      <p>
+        Para usar JavaScript junto con HTML hay dos formas:
+      </p>
+      <ul>
+        <li> La primera es incluir el código de java script dentro de la etiqueta script </li>
+        <li> La segunda forma es tener el script en un archivo .js aparte y en html en la etiqueta
+          script especificar su dirección (src)</li>
+
+
+      </ul>
+      <img src="Assets/1.png" alt="Descripción de la imagen" class="zoom-image">
+
+      <img src="Assets/2.png" alt="Descripción de la imagen" class="zoom-image">
+      
+
+
+
+    </div>
+  </div>
+  
+  <footer>
+    <p>Desarrollado por:</p>
+    <ul >
+      <li><a  href="https://github.com/juandtap">Diego Tapia, </a></li>
+      <li><a  href="https://github.com/Paul-Astudillo" >Paul Astudillo </a></li>
+      <li>Enlaces a repositorios</li>
+      <li><a  href="https://github.com/juandtap/Practica1_DesarrolloWeb" >Repositorio Github</a></li>
+      <li><a  href="https://stackblitz.com/edit/web-platform-yjx4kh" >Repositorio StackBlitz</a></li>
+    </ul>
+    <button onclick="cambiarEstilo()">Cambiar estilo</button>
+  </footer>
+  <script src="script.js"></script>
+  
+</body>
+
+</html>
